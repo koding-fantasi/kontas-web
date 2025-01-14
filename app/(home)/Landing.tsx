@@ -23,10 +23,10 @@ export default function Landing() {
             <FloatingLeaves />
 
             {/* Left Dragon */}
-            <div className="absolute md:left-[12%] left-1/4 md:translate-x-0 md:top-1/2 top-32 -translate-y-1/2 scale-x-[-1]">
+            <div className="absolute md:left-[15%] left-1/4 md:translate-x-0 md:top-[60%] top-32 -translate-y-1/2 scale-x-[-1]">
                 <DragonLottie 
                     src="/assets/lottie-dragon/dragon1.lottie" 
-                    className="w-24 h-24 md:w-48 md:h-48"
+                    className="w-24 h-24 md:w-52 md:h-52"
                 />
             </div>
 
@@ -80,10 +80,10 @@ export default function Landing() {
             <ScrollDownIndicator />
 
             {/* Right Dragon */}
-            <div className="absolute md:right-[12%] right-1/4 md:translate-x-0 md:top-1/2 top-32 -translate-y-1/2">
+            <div className="absolute md:right-[14%] right-1/4 md:translate-x-0 md:top-[60%] top-32 -translate-y-1/2">
                 <DragonLottie 
                     src="/assets/lottie-dragon/dragon2.lottie" 
-                    className="w-24 h-24 md:w-48 md:h-48"
+                    className="w-24 h-24 md:w-52 md:h-52"
                 />
             </div>
         </section>

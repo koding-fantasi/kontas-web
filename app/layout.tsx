@@ -66,11 +66,7 @@ export const metadata: Metadata = {
   // Icons - sesuai brand colors
   icons: {
     icon: [
-      { url: '/favicon.ico' },
-      { url: '/logo.png', type: 'image/png' }
-    ],
-    apple: [
-      { url: '/apple-touch-icon.png' }
+      { url: '/favicon.ico' }
     ]
   },
 

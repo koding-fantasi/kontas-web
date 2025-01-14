@@ -38,9 +38,9 @@ export const metadata: Metadata = {
   
   // Authors & creator
   authors: [
-    { name: 'Kontas Team', url: 'https://kontas.id' }
+    { name: 'Hendy Mamusung', url: 'https://kontas.id' }
   ],
-  creator: 'Kontas Team',
+  creator: 'Hendy Mamusung',
   
   // Category
   category: 'Technology',

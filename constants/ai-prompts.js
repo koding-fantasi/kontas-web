@@ -14,4 +14,4 @@ RULES:
 - Kalau ada code, kasih contoh code yg sesuai dgn docs
 `
 
-console.log(docs)
+// console.log(docs)

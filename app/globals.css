@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --font-league: "League Spartan", sans-serif;
+  --primary-from: #FF4B4B;
+  --primary-to: #FF8E53;
+}
+
+:root[class~="dark"] {  
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-league);
+}

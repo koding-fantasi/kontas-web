@@ -5,6 +5,8 @@ import AnimatedQuote from './(ui)/AnimatedQuote'
 import ScrollDownIndicator from './(ui)/ScrollDownIndicator'
 import CongratsLottie from './(ui)/Congrats'
 import { useCongrats } from './useCongrats'
+import ParticlesBackground from './(ui)/ParticlesBackground'
+import FloatingLeaves from './(ui)/FloatingLeaves'
 
 export default function Landing() {
     const { 
@@ -17,11 +19,8 @@ export default function Landing() {
 
     return (
         <section className="flex items-center justify-center relative overflow-hidden" style={{ minHeight: 'calc(100vh - 64px)' }}>
-            {/* Background Elements */}
-            <div className="absolute inset-0 opacity-30">
-                <div className="absolute top-20 left-10 w-72 h-72 bg-[var(--primary-from)] rounded-full filter blur-3xl" />
-                <div className="absolute bottom-20 right-10 w-72 h-72 bg-[var(--primary-to)] rounded-full filter blur-3xl" />
-            </div>
+            <ParticlesBackground />
+            <FloatingLeaves />
 
             {/* Left Dragon */}
             <div className="absolute md:left-[12%] left-1/4 md:translate-x-0 md:top-1/2 top-32 -translate-y-1/2 scale-x-[-1]">

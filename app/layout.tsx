@@ -52,21 +52,7 @@ export const metadata: Metadata = {
     url: 'https://kontas.id',
     siteName: 'Kontas Framework',
     title: 'Kontas - The Server Framework that Anyone Can Master',
-    description: 'Framework server minimalis berbasis Bun dgn fokus pd kesederhanaan, performa tinggi & developer experience yg menyenangkan.',
-    images: [
-      {
-        url: '/og-banner.png', // Banner utama dgn preview code & fitur
-        width: 1200,
-        height: 630,
-        alt: 'Kontas Framework Preview'
-      },
-      {
-        url: '/og-logo.png',  // Logo Kontas dgn gradient
-        width: 600,
-        height: 600,
-        alt: 'Kontas Framework Logo'
-      }
-    ],
+    description: 'Framework server minimalis berbasis Bun dgn fokus pd kesederhanaan, performa tinggi & developer experience yg menyenangkan.'
   },
 
   // Twitter card - sesuai branding
@@ -74,7 +60,6 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Kontas - The Server Framework that Anyone Can Master',
     description: 'Framework server minimalis berbasis Bun dgn fokus pd kesederhanaan & developer experience.',
-    images: ['/twitter-banner.png'], // Banner khusus twitter
     creator: '@KontasFramework'
   },
 

@@ -6,9 +6,13 @@ export default function ScrollDownIndicator() {
     const handleClick = () => {
         const featuresSection = document.getElementById('features-section')
         if (featuresSection) {
-            featuresSection.scrollIntoView({ 
-                behavior: 'smooth',
-                block: 'start'
+            const offset = 80 // utk mengcompensate navbar height + extra space
+            const elementPosition = featuresSection.getBoundingClientRect().top
+            const offsetPosition = elementPosition + window.pageYOffset - offset
+
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth'
             })
         }
     }

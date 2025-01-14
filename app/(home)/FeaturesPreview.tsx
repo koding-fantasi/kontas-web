@@ -2,17 +2,6 @@ export default function FeaturesPreview() {
     return (
         <section id="features-section" className="py-20">
             <div className="max-w-6xl mx-auto px-4 w-full">
-                <div className="text-center mb-16">
-                    <h2 className="text-4xl md:text-5xl font-black mb-4">
-                        <span className="bg-gradient-to-r from-[var(--primary-from)] to-[var(--primary-to)] bg-clip-text text-transparent">
-                            Powerful Features
-                        </span>
-                    </h2>
-                    <p className="text-xl text-gray-600 dark:text-gray-400">
-                        Everything you need to build modern web applications
-                    </p>
-                </div>
-
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {[
                         { icon: '🚀', title: 'Blazing Fast', desc: 'Built on top of Bun, delivering unmatched performance' },

@@ -1,7 +1,7 @@
 import Anthropic from '@anthropic-ai/sdk'
 import { KONTAS_DOCS_PROMPT } from '../constants/ai-prompts'
 
-const CLAUDE_API_KEY = process.env.AI_API_KEY
+const CLAUDE_API_KEY = process.env.NEXT_PUBLIC_CLAUDE
 
 // Base AI function
 // askClaude adalah function untuk mengirim pesan ke Claude dan bisa kita pakai berkali-kali, contohnya export yang ada di bawah

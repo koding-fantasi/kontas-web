@@ -6,18 +6,11 @@ export default function robots(): MetadataRoute.Robots {
             {
                 userAgent: '*',
                 allow: '/',
-                // Biasanya path yg ga boleh diakses crawler
-                disallow: [
-                    '/api/',
-                    '/admin/',
-                    '/private/',
-                    '/*.json$',
-                ]
+                disallow: ['/api/*'],
+                crawlDelay: 2
             }
         ],
-        // Nanti bisa dibikin sitemap.xml
-        sitemap: 'https://kontas.com/sitemap.xml',
-        // Ganti dgn domain kamu nanti
-        host: 'https://kontas.com'
+        sitemap: 'https://kontas.id/sitemap.xml',
+        host: 'https://kontas.id'
     }
 }

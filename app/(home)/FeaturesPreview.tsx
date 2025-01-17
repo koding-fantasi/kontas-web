@@ -1,7 +1,13 @@
-export default function FeaturesPreview() {
+"use server"
+
+export default async function FeaturesPreview() {
     return (
-        <section id="features-section" className="py-20">
+        <section id="features-section" className="py-20 relative z-20">
             <div className="max-w-6xl mx-auto px-4 w-full">
+                <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-[var(--primary-from)] to-[var(--primary-to)] bg-clip-text text-transparent">
+                    Fitur Keren yg Bikin Koding Makin Seru 🚀
+                </h2>
+
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {[
                         { icon: '🚀', title: 'Blazing Fast', desc: 'Built on top of Bun, delivering unmatched performance' },

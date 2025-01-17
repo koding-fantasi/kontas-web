@@ -45,8 +45,7 @@ export default function ParticlesBackground() {
         }
 
         const draw = () => {
-            ctx.fillStyle = 'rgba(255, 255, 255, 0.95)'
-            ctx.fillRect(0, 0, canvas.width, canvas.height)
+            ctx.clearRect(0, 0, canvas.width, canvas.height)
 
             // Update & draw particles
             particles.forEach((p, i) => {

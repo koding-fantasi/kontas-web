@@ -2,7 +2,7 @@ import "./globals.css";
 import type { Metadata, Viewport } from "next";
 import { League_Spartan } from "next/font/google";
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+// import Footer from "@/components/Footer";
 import { Toaster } from 'sonner';
 
 const league = League_Spartan({
@@ -103,7 +103,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Toaster />
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );

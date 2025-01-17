@@ -2,7 +2,7 @@
 
 import DragonLottie from './(ui)/Dragon'
 import AnimatedQuote from './(ui)/AnimatedQuote'
-import ScrollDownIndicator from './(ui)/ScrollDownIndicator'
+// import ScrollDownIndicator from './(ui)/ScrollDownIndicator'
 import CongratsLottie from './(ui)/Congrats'
 import { useCongrats } from './useCongrats'
 import ParticlesBackground from './(ui)/ParticlesBackground'
@@ -77,7 +77,7 @@ export default function Landing() {
                 </div>
             </div>
 
-            <ScrollDownIndicator />
+            {/* <ScrollDownIndicator /> */}
 
             {/* Right Dragon */}
             <div className="absolute md:right-[14%] right-1/4 md:translate-x-0 md:top-[60%] top-32 -translate-y-1/2">

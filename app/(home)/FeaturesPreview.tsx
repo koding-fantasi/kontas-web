@@ -15,7 +15,7 @@ export default function FeaturesPreview() {
                             key={i} 
                             className="p-8 rounded-xl bg-white/5 backdrop-blur-sm border border-gray-200 dark:border-gray-800 hover:border-[var(--primary-from)] transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
                         >
-                            <div className="text-4xl mb-4">{feature.icon}</div>
+                            <div className="text-4xl mb-4" aria-hidden="true">{feature.icon}</div>
                             <h3 className="text-2xl font-bold mb-3 bg-gradient-to-r from-[var(--primary-from)] to-[var(--primary-to)] bg-clip-text text-transparent">
                                 {feature.title}
                             </h3>

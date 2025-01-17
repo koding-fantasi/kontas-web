@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { searchDocs } from '@/utils/ai-tools'
+import { ai } from '@/utils/ai-tools'
 import CopyButton from '@/components/ui/CopyButton'
 
 interface ChatMessage {
@@ -102,7 +102,7 @@ export default function SearchModal({ isOpen, onClose, initialQuery }: SearchMod
         
         setIsLoading(true)
         try {
-            const response = await searchDocs(userMessage, messages)
+            const response = await ai.generateText(userMessage)
             setMessages(prev => [...prev, { isUser: false, text: response }])
         } catch (error) {
             console.error('Search error:', error)

@@ -26,7 +26,7 @@ export default function Navbar() {
                 <div className="max-w-7xl mx-auto px-4 h-16 flex items-center">
                     {/* Left side - Logo */}
                     <div className="w-[200px]">
-                        <Link href="/" className="text-xl font-bold text-gray-800">
+                        <Link href="/" className="text-xl font-bold text-gray-800" aria-label="Home">
                             <div className="mb-8">
                                 <Image
                                     src="/kl-light.png"
@@ -49,28 +49,31 @@ export default function Navbar() {
                                 placeholder="Search docs with AI"
                                 onChange={handleInputChange}
                                 className="bg-transparent px-6 py-2.5 text-lg focus:outline-none text-gray-600 w-[400px] rounded-full placeholder:text-lg"
+                                aria-label="Search documentation"
                             />
-                            <IconSparkles className="w-5 h-5 mr-4 text-gray-500" />
+                            <IconSparkles className="w-5 h-5 mr-4 text-gray-500" aria-hidden="true" />
                         </div>
                     </div>
 
                     {/* Right side - Icons */}
                     <div className="w-[200px] flex items-center justify-end gap-6">
                         <a
-                            href="https://www.npmjs.com/package/create-kontas"
+                            href="https://www.npmjs.com/package/kontas"
                             className="text-gray-600 hover:text-gray-900 transition-colors"
                             target="_blank"
                             rel="noopener noreferrer"
+                            aria-label="View package on NPM"
                         >
-                            <IconBrandNpm className="w-10 h-10" />
+                            <IconBrandNpm className="w-10 h-10" aria-hidden="true" />
                         </a>
                         <a
-                            href="https://github.com/hensmsn/kontas"
+                            href="https://github.com/koding-fantasi/kontas-web"
                             className="text-gray-600 hover:text-gray-900 transition-colors"
                             target="_blank"
                             rel="noopener noreferrer"
+                            aria-label="View source on GitHub"
                         >
-                            <IconBrandGithub className="w-7 h-7" />
+                            <IconBrandGithub className="w-7 h-7" aria-hidden="true" />
                         </a>
                     </div>
                 </div>

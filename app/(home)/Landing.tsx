@@ -1,6 +1,6 @@
 'use client'
 
-import DragonLottie from './(ui)/Dragon'
+// import DragonLottie from './(ui)/Dragon'
 import AnimatedQuote from './(ui)/AnimatedQuote'
 import ScrollDownIndicator from './(ui)/ScrollDownIndicator'
 import CongratsLottie from './(ui)/Congrats'
@@ -22,13 +22,14 @@ export default function Landing() {
             <ParticlesBackground />
             <FloatingLeaves />
 
-            {/* Left Dragon */}
+            {/* Left Dragon - Temporarily disabled
             <div className="absolute md:left-[15%] left-1/4 md:translate-x-0 md:top-[60%] top-32 -translate-y-1/2 scale-x-[-1]">
                 <DragonLottie 
                     src="/assets/lottie-dragon/dragon1.lottie" 
                     className="w-24 h-24 md:w-52 md:h-52"
                 />
             </div>
+            */}
 
             <div className="max-w-6xl mx-auto px-4 py-20 md:py-20 text-center relative z-10">
                 {/* Main Heading */}
@@ -79,13 +80,14 @@ export default function Landing() {
 
             <ScrollDownIndicator />
 
-            {/* Right Dragon */}
+            {/* Right Dragon - Temporarily disabled
             <div className="absolute md:right-[14%] right-1/4 md:translate-x-0 md:top-[60%] top-32 -translate-y-1/2">
                 <DragonLottie 
                     src="/assets/lottie-dragon/dragon2.lottie" 
                     className="w-24 h-24 md:w-52 md:h-52"
                 />
             </div>
+            */}
         </section>
     )
 } 

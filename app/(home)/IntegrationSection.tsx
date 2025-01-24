@@ -31,7 +31,7 @@ const partners = [
     },
     {
         name: 'Express',
-        logo: 'https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png',
+        logo: 'https://cdn.simpleicons.org/express/000000/white',
         desc: 'Build robust APIs with Kontas & Express',
         color: 'hover:text-green-500'
     }

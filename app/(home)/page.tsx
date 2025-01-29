@@ -10,8 +10,8 @@ export default async function Home() {
         <main className="min-h-screen pt-16">
             <Landing />
             <FeaturesPreview />
-            <CliSection />
             <IntegrationSection />
+            <CliSection />
         </main>
     )
 }

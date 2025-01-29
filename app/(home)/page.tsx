@@ -2,7 +2,7 @@
 
 import Landing from './Landing'
 import FeaturesPreview from './FeaturesPreview'
-import CliSection from './CliSection'
+// import CliSection from './CliSection'
 import IntegrationSection from './IntegrationSection'
 
 export default async function Home() {
@@ -10,7 +10,7 @@ export default async function Home() {
         <main className="min-h-screen pt-16">
             <Landing />
             <FeaturesPreview />
-            <CliSection />
+            {/* <CliSection /> */}
             <IntegrationSection />
         </main>
     )

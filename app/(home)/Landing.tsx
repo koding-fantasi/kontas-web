@@ -34,9 +34,9 @@ export default function Landing() {
             <div className="max-w-6xl mx-auto px-4 py-20 md:py-20 text-center relative z-10">
                 {/* Main Heading */}
                 <div className="relative animate-float mb-16 mt-20 md:mt-0">
-                    <h1 className="text-5xl md:text-9xl font-black">
+                    <h1 className="text-5xl md:text-8xl font-black">
                         <span className="bg-gradient-to-r from-[var(--primary-from)] to-[var(--primary-to)] bg-clip-text text-transparent">
-                            KONTAS
+                            Koding Fantasi
                         </span>
                     </h1>
                     <p className="mt-4 text-xl md:text-3xl font-medium px-2">

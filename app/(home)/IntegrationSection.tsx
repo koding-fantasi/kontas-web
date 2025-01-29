@@ -49,7 +49,17 @@ export default function IntegrationSection() {
 
     return (
         <section className="min-h-screen flex items-center justify-center relative z-20 py-32">
-            <div className="max-w-7xl mx-auto px-4">
+            {/* Background reveal effect */}
+            <div className="absolute inset-0 overflow-hidden">
+                <div className="max-w-7xl mx-auto h-full px-4 relative">
+                    <div className="absolute inset-0 bg-white dark:bg-[#0a0a0a] rounded-[2rem] transition-opacity duration-500 h-[calc(100%-8rem)] my-16 
+                        border-4 border-gray-200 dark:border-gray-800" 
+                         style={{ clipPath: 'inset(0 0 0 0 round 2rem)' }} />
+                </div>
+            </div>
+
+            {/* Main content */}
+            <div className="max-w-7xl mx-auto px-4 relative z-10">
                 {/* Main Integration Display */}
                 <div className="flex flex-col items-center">
                     <div className="flex items-center justify-center gap-8 mb-6">

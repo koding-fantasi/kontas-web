@@ -7,31 +7,31 @@ import { useState, useEffect } from 'react'
 const partners = [
     {
         name: 'Next.js',
-        logo: 'https://assets.vercel.com/image/upload/v1662130559/nextjs/Icon_dark_background.png',
+        logo: '/assets/framework-logo/next.png',
         desc: 'Build full-stack apps with Kontas & Next.js',
         color: 'hover:text-black dark:hover:text-white'
     },
     {
         name: 'ElysiaJS',
-        logo: 'https://elysiajs.com/assets/elysia.svg',
+        logo: '/assets/framework-logo/elysia.svg',
         desc: 'Create blazing fast APIs with Kontas & Elysia',
         color: 'hover:text-purple-500'
     },
     {
         name: 'Hono',
-        logo: 'https://raw.githubusercontent.com/honojs/hono/main/docs/images/hono-logo.png',
+        logo: '/assets/framework-logo/hono.png',
         desc: 'Develop lightweight backends with Kontas & Hono',
         color: 'hover:text-blue-500'
     },
     {
         name: 'Bun',
-        logo: 'https://bun.sh/logo.svg',
+        logo: '/assets/framework-logo/bun.svg',
         desc: 'Supercharge your apps with Bun',
         color: 'hover:text-orange-500'
     },
     {
         name: 'Express',
-        logo: 'https://cdn.simpleicons.org/express/000000/white',
+        logo: '/assets/framework-logo/ex.svg',
         desc: 'Build robust APIs with Kontas & Express',
         color: 'hover:text-green-500'
     }
